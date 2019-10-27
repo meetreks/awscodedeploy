@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/sample-app
+  - source: /
+    destination: /home/ec2-user/sample-app
+  - source: /conf/sample_app.conf
+    destination: /etc/httpd/conf.d
